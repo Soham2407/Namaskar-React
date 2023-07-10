@@ -32,15 +32,18 @@
   cursor: pointer;
 }
 
+.main-container {
+  margin: 0.8rem 3rem;
+}
+
 .restro-list {
   display: flex;
   gap: 1.6rem;
   flex-wrap: wrap;
-  margin: 0.8rem 0.4rem;
 }
 
 .card {
-  width: 18rem;
+  width: 16rem;
   border: 1px solid rgba(0, 0, 0, 0.466);
   border-radius: 0.5rem;
 }
@@ -73,4 +76,21 @@ footer p {
   text-align: center;
   font-size: 1.1rem;
   margin: 0.8rem;
+}
+
+.search {
+  margin: 1rem 0;
+}
+
+.search input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.search button {
+  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+  background-color: blue;
+  color: #fff;
+  margin-left: 0.8rem;
 }
